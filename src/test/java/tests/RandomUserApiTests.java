@@ -3,6 +3,7 @@ package tests;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utils.TestType;
 import utils.dataProviders.DataProviders;
 
 import java.util.List;
@@ -14,7 +15,10 @@ import static utils.enums.HttpsStatusCodes.Code.*;
 
 public class RandomUserApiTests extends TestBase {
 
-    @Test(description = "Verify that a valid request to the base endpoint returns status code 200")
+    @Test(groups = {
+            TestType.SANITY,
+            TestType.REGRESSION},
+            description = "Verify that a valid request to the base endpoint returns status code 200")
     public void testGetRandomUser() {
         Response response = given()
                 .when().
@@ -23,7 +27,8 @@ public class RandomUserApiTests extends TestBase {
         Assert.assertFalse(response.jsonPath().getList("results").isEmpty());
     }
 
-    @Test(dataProvider = "multipleUsersProvider", dataProviderClass = DataProviders.class,
+    @Test(groups = {TestType.REGRESSION},
+            dataProvider = "multipleUsersProvider", dataProviderClass = DataProviders.class,
             description = "Check that the API returns the expected number of results as per request")
     public void testGetMultipleUsers(int numbOfResults) {
         Response response = given()
@@ -34,7 +39,8 @@ public class RandomUserApiTests extends TestBase {
         assertEquals(response.jsonPath().getList("results").size(), numbOfResults);
     }
 
-    @Test(description = "Request with an invalid query returns status code 400")
+    @Test(groups = {TestType.REGRESSION},
+            description = "Request with an invalid query returns status code 400")
     public void testInvalidParam() {
         given()
                 .queryParam("results", "invalid")
@@ -44,7 +50,10 @@ public class RandomUserApiTests extends TestBase {
                 .statusCode(BAD_REQUEST.getCode());
     }
 
-    @Test(description = "Request to an invalid endpoint returns status code 404")
+    @Test(groups = {
+            TestType.SANITY,
+            TestType.REGRESSION},
+            description = "Request to an invalid endpoint returns status code 404")
     public void testInvalidEndpoint() {
         given()
                 .when()
@@ -53,7 +62,8 @@ public class RandomUserApiTests extends TestBase {
                 .statusCode(NOT_FOUND.getCode());
     }
 
-    @Test(dataProvider = "differentNationalitiesProvider", dataProviderClass = DataProviders.class,
+    @Test(groups = {TestType.REGRESSION},
+            dataProvider = "differentNationalitiesProvider", dataProviderClass = DataProviders.class,
             description = "Verify that filtering results by nationality returns the correct number of results and" +
                     "all returned results match the specified nationality")
     public void testFiltering(String nationality, int numbOfUsers) {

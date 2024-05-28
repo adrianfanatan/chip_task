@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="API Sanity Suite">
+    <test name="API Tests">
+        <groups>
+            <run>
+                <include name="sanity"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="tests.*"/>
+        </packages>
+    </test>
+</suite>

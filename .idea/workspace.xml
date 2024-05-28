@@ -38,27 +38,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.chip_task [clean,install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG./Users/adi/IdeaProjects/chip_task/src/test/resources/testsuites/testsuite.xml.executor": "Run",
-    "TestNG.RandomUserApiTests.executor": "Run",
-    "TestNG.RandomUserApiTests.testFiltering.executor": "Run",
-    "TestNG.RandomUserApiTests.testGetMultipleUsers.executor": "Run",
-    "TestNG.RandomUserApiTests.testGetRandomUser.executor": "Run",
-    "TestNG.RandomUserApiTests.testInvalidEndpoint.executor": "Debug",
-    "TestNG.RandomUserApiTests.testInvalidParam.executor": "Run",
-    "TestNG.RandomUserApiTests.testSorting.executor": "Run",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/adi/IdeaProjects/chip_task/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.chip_task [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG./Users/adi/IdeaProjects/chip_task/src/test/resources/testsuites/testsuite.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RandomUserApiTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RandomUserApiTests.testFiltering.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RandomUserApiTests.testGetMultipleUsers.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RandomUserApiTests.testGetRandomUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RandomUserApiTests.testInvalidEndpoint.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.RandomUserApiTests.testInvalidParam.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RandomUserApiTests.testSorting.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/adi/IdeaProjects/chip_task/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />

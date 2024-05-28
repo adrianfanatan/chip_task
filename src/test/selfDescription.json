@@ -1,0 +1,58 @@
+{
+  "Person": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Adrian",
+        "last": "Fanatan"
+      },
+      "birth": {
+        "city": "Baia Mare",
+        "country": "Romania",
+        "day": "30",
+        "month": "March",
+        "year": "1991",
+        "nationality": "Romania"
+      },
+      "location": {
+        "city": "Cluj-Napoca",
+        "country": "Romania",
+        "street": "Valeriu Bologa",
+        "number": "3",
+        "postcode": "400436"
+      },
+      "coordinates": {
+        "latitude": "46.7657",
+        "longitude": "23.5943"
+      },
+      "timezone": {
+        "offset": "+3",
+        "description": "Eastern European Time"
+      },
+      "contact": {
+        "email": "adi_14th@yahoo.com",
+        "phone": "(+40) 742 768 742"
+      },
+      "gitHub": {
+        "username": "adrianfanatan",
+        "repository": "chip_task",
+        "repositoryLocation": "https://github.com/adrianfanatan/chip_task.git"
+      },
+      "passions": [
+        {
+          "activity": "sport",
+          "description": "Very passionate about sport, especially football"
+        },
+        {
+          "activity": "travelling",
+          "description": "I like to travel to see new places and meet new people and cultures"
+        },
+        {
+          "profession": "QA",
+          "description": "QA it's a passion for me even in real life"
+        }
+      ]
+    }
+  ]
+}

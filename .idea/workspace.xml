@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9be21b99-61ee-4d07-a460-8e53869f1517" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/selfDescription.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RandomUserApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RandomUserApiTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +43,9 @@
     "Maven.chip_task [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/adi/IdeaProjects/chip_task/src/test/resources/testsuites/testsuite.xml.executor": "Run",
     "TestNG.RandomUserApiTests.executor": "Run",
-    "TestNG.RandomUserApiTests.testFiltering.executor": "Debug",
+    "TestNG.RandomUserApiTests.testFiltering.executor": "Run",
     "TestNG.RandomUserApiTests.testGetMultipleUsers.executor": "Run",
     "TestNG.RandomUserApiTests.testGetRandomUser.executor": "Run",
     "TestNG.RandomUserApiTests.testInvalidEndpoint.executor": "Debug",
@@ -55,11 +54,16 @@
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/adi/IdeaProjects/chip_task/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG.RandomUserApiTests">
     <configuration name="RandomUserApiTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="chip_task" />
@@ -89,24 +93,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.RandomUserApiTests" />
       <option name="METHOD_NAME" value="testFiltering" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomUserApiTests.testGetMultipleUsers" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="chip_task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.RandomUserApiTests" />
-      <option name="METHOD_NAME" value="testGetMultipleUsers" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,13 +136,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/adi/IdeaProjects/chip_task/src/test/resources/testsuites/testsuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="chip_task" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testsuites/testsuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.RandomUserApiTests" />
-        <item itemvalue="TestNG.RandomUserApiTests.testGetRandomUser" />
+        <item itemvalue="TestNG./Users/adi/IdeaProjects/chip_task/src/test/resources/testsuites/testsuite.xml" />
         <item itemvalue="TestNG.RandomUserApiTests.testFiltering" />
+        <item itemvalue="TestNG.RandomUserApiTests.testGetRandomUser" />
         <item itemvalue="TestNG.RandomUserApiTests.testSorting" />
-        <item itemvalue="TestNG.RandomUserApiTests.testGetMultipleUsers" />
       </list>
     </recent_temporary>
   </component>

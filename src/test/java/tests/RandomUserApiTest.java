@@ -40,7 +40,7 @@ public class RandomUserApiTest extends TestBase {
     }
 
     @Test(groups = {TestType.REGRESSION},
-            description = "Request with an invalid query returns status code 400")
+            description = "Check that a request with an invalid query returns status code 400")
     public void testInvalidParam() {
         given()
                 .queryParam("results", "invalid")
@@ -53,7 +53,7 @@ public class RandomUserApiTest extends TestBase {
     @Test(groups = {
             TestType.SANITY,
             TestType.REGRESSION},
-            description = "Request to an invalid endpoint returns status code 404")
+            description = "Check that a request to an invalid endpoint returns status code 404")
     public void testInvalidEndpoint() {
         given()
                 .when()

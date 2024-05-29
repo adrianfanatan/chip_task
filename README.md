@@ -46,5 +46,5 @@ You can check these reports in 2 ways:
 
    - GitHub - on the Actions tab 
    - Locally: run the commant to run the tests  ```bash mvn test``` and after that ```bash allure serve allure-results```
-     (this will open a new browser window with all the stats from the tests interpreted in browser)
+     (this will open a new browser window with all the stats from the tests interpreted in browser) 
             

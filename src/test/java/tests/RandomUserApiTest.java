@@ -13,7 +13,7 @@ import static io.restassured.RestAssured.given;
 import static org.testng.Assert.assertEquals;
 import static utils.enums.HttpsStatusCodes.Code.*;
 
-public class RandomUserApiTests extends TestBase {
+public class RandomUserApiTest extends TestBase {
 
     @Test(groups = {
             TestType.SANITY,
